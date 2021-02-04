@@ -1,0 +1,402 @@
+.sale-update {
+    background-color: #88c8bc;
+}
+
+.slider {
+    width: 100%;
+    height: 500px;
+}
+
+h1.foot {
+    color: #595959;
+    font-size: 34px;
+}
+
+h3.saleh3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: futuralight;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+.font3 {
+    font-family: futuralight;
+}
+
+@font-face {
+    font-family: Montserratlight;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+.font4 {
+    font-family: Montserratlight;
+}
+
+.gender-divh2 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+@font-face {
+    font-family: rokkitt;
+    src: url(../fonts/Rokkitt-VariableFont_wght.ttf);
+}
+
+.font5 {
+    font-family: rokkitt;
+}
+
+@font-face {
+    font-family: regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+.font6 {
+    font-family: regular;
+}
+
+.item-list {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+}
+
+.btn-lg {
+    background-color: #616161;
+    color: #fff;
+
+}
+
+.btn-lg:hover {
+    color: #fff;
+    background-color: black;
+
+}
+
+.text-button-lg {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.trusted-par {
+    font-size: 20px;
+    color: #0000004D;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-links {
+    list-style-type: none;
+}
+
+.footer-p p {
+    font-size: 14px;
+    font-weight: 100;
+    font-family: Montserratlight;
+}
+
+.footer-p a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #fff;
+
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 12px;
+}
+
+ul.breadcrumb li + li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.women-banner {
+    background-image: url("https://preview.colorlib.com/theme/footwear/images/cover-img-1.jpg");
+    height: 300px;
+    padding: 4em;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.para-right-margin {
+    font-size: 14px;
+}
+
+.para-right-margin p {
+    margin-top: 10px;
+    color: #faf8fa;
+}
+
+.uiit {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: cover;
+}
+
+.featured1 {
+    height: 400px;
+    background-image: url("https://preview.colorlib.com/theme/footwear/images/img_bg_2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.featured2 {
+    height: 400px;
+    background-image: url("https://preview.colorlib.com/theme/footwear/images/women.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.featured3 {
+    height: 400px;
+    background-image: url("https://preview.colorlib.com/theme/footwear/images/item-11.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.uii {
+    list-style-type: none;
+}
+
+.uii a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.uii li {
+    margin-bottom: 5px;
+}
+
+.sizes {
+    background-color: #cccccc;
+
+}
+
+
+.pagination {
+    list-style: none;
+    padding: 8px;
+    text-align: center;
+}
+
+.pagination a,
+.pagination li {
+    border-radius: 50%;
+    color: #212121;
+    display: inline-block;
+    margin: 0;
+    transition: .15s ease-in;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #595959;
+}
+
+/*
+.pagination a:hover {
+  background: rgba(63, 81, 181, 0.12);
+}
+*/
+.pagination .pagination-number,
+.pagination .pagination-arrow i {
+    vertical-align: middle;
+}
+
+.pagination .pagination-number {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    width: 32px;
+    padding: 4px 0;
+}
+
+.pagination .pagination-number.current-number {
+    background: #616161;
+    color: #fff;
+}
+
+.pagination .pagination-arrow i {
+    font-size: 14px;
+    padding: 4px;
+
+}
+
+.pagi-icon {
+    font-size: 14px;
+}
+
+.button {
+    background-color: #cccccc;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+
+.button:hover {
+    background-color: #616161;
+}
+
+.button1 {
+    border-radius: 4px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: #616161;
+}
+
+.fa-twitter {
+    color: #616161;
+}
+
+.fa-linkedin {
+    color: #616161;
+}
+
+.fa-dribbble {
+    color: #616161;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animation {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+.my-button {
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #616161;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.my-button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.pull-right-karo {
+    float: right!important;
+}
+
+.he-res{
+    height: 600px;
+}
+@media screen and (max-width: 600px) {
+    .gender-img {
+        width: 350px;
+        height: 150px;
+    }
+
+    .gender-h2 {
+        font-size: 28px;
+    }
+
+    .big-heading {
+        font-size: 25px;
+    }
+
+    .search-hide {
+        display: none;
+    }
+
+    .featured3,
+    .featured2 {
+        margin-top: 10px;
+    }
+
+    .pull-right-karo {
+        float: left!important;
+    }
+    
+    .he-res{
+      height: 600px;  
+    }
+}
